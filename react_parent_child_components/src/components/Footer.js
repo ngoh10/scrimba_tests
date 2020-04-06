@@ -5,7 +5,13 @@
 // 2. A MainContent component
 // 3. A Footer component
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+function Footer() {
+  return (
+    <div>
+      <footer>8==================D</footer>
+    </div>
+  );
+}
+
+export default Footer;

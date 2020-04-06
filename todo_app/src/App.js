@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// From scratch, initialize the React app
+// Render an <App /> component
+// Create the <App /> component from scratch
+// Have the <App /> component render 3 or 4 checkboxes with paragraphs or spans next to it
+// like you're making a todo list with some hard-coded items on it
+
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <input type="checkbox" />
+      <p>hella big peepee</p>
+
+      <input type="checkbox" />
+      <p>hella big peepee</p>
+
+      <input type="checkbox" />
+      <p>hella big peepee</p>
+
+      <input type="checkbox" />
+      <p>hella big peepee</p>
     </div>
   );
 }
-
 export default App;

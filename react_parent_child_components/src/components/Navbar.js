@@ -9,7 +9,7 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <header>Hella WORLD</header>
+      <header className="navbar">Hella WORLD</header>
     </div>
   );
 }

@@ -5,22 +5,15 @@
 // like you're making a todo list with some hard-coded items on it
 
 import React from "react";
-
-function App() {
+import TodoItem from "./components/TodoItem";
+const App = () => {
   return (
-    <div>
-      <input type="checkbox" />
-      <p>hella big peepee</p>
-
-      <input type="checkbox" />
-      <p>hella big peepee</p>
-
-      <input type="checkbox" />
-      <p>hella big peepee</p>
-
-      <input type="checkbox" />
-      <p>hella big peepee</p>
+    <div className="todo-list">
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   );
-}
+};
 export default App;

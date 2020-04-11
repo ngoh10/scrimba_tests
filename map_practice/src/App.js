@@ -10,13 +10,14 @@ Make sure to use the array's `.map()` method to create these components, and
 don't forget to pass a `key` prop to it to avoid the warning.
 */
 const App = () => {
-  const productComponents = productsData.map((product) => (
+  const productComponents = productsData.map((item) => (
     <Products
-      key={product.id}
-      name={product.name}
-      image={product.image}
-      price={product.price}
-      description={product.description}
+      key={item.id}
+      product={item}
+      // image={item.image}
+      // name={product.name}
+      // price={product.price}
+      // description={product.description}
     />
   ));
 
